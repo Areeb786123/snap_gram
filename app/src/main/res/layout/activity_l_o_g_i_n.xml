@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".LOGIN">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome  ^_^"
+        android:layout_marginTop="10dp"
+        android:textSize="38dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone">
+
+
+    </ProgressBar>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="245dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/mobile">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/hell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello !"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-medium">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best place to explore the world and write the stories and share your journey"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#F3FF0000"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-medium">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="65dp">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/gooo">
+
+        </ImageView>
+
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:text="Google Sign-in"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#E91E63">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
